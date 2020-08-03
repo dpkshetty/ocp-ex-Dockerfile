@@ -4,4 +4,4 @@ RUN adduser myuser
 USER myuser
 
 EXPOSE 8080
-CMD /bin/bash
+ENTRYPOINT /bin/bash
