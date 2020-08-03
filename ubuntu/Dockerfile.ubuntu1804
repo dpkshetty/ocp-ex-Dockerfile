@@ -1,4 +1,7 @@
 FROM ubuntu:18.04
 
+RUN adduser -D myuser
+USER myuser
+
 EXPOSE 8080
 CMD /bin/bash
