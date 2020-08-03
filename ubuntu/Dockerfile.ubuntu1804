@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-RUN adduser --defaults myuser
+RUN adduser myuser
 USER myuser
 
 EXPOSE 8080
