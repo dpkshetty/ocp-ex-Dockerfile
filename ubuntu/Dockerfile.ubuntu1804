@@ -1,7 +1,2 @@
 FROM ubuntu:18.04
-
-RUN adduser myuser
-USER myuser
-
-EXPOSE 8080
-ENTRYPOINT /bin/bash
+CMD /bin/bash
