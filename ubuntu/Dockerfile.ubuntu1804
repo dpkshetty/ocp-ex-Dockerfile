@@ -1,2 +1,2 @@
 FROM ubuntu:18.04
-CMD ["/bin/sh", "-c", "/bin/bash"]
+CMD ["/bin/bash", "-c", "sleep infinity"]
